@@ -33,13 +33,13 @@ task wrapper(type: Wrapper) {
 }
 
 war {
-    baseName = 'spittr'
+    baseName = 'webwarehouse'
 }
 
 eclipse {
     wtp {
         component {
-            contextPath = 'spittr'
+            contextPath = 'webwarehouse'
         }
     }
 }
